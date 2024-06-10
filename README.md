@@ -41,3 +41,7 @@ npm install picocolors
 ```
 Con esto nos agrega a las dependencias de producción este modulo ya que será necesario para el funcionamiento de nuestra aplicación. 
 Con este modulo modificamos nuestra funcion de ls advance para darle color a la salida de consola.
+
+## Creando un server con Node
+Se hizo un ejercicio utilizando el modulo node:http esto unicamente para levantar un servidor, a la par se creo un modulo propio para que al pasar un puerto deseado se revise si el puerto esta disponible de no ser así nos regresa cualquier otro puerto que si este disponible. 
+Se utiliza este modulo para levantar el servidor en un puerto deseado y si esta ocupado levantar el servidor en la alternativa de puerto. 
